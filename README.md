@@ -2,6 +2,11 @@
 O Devilbox é um moderno LAMP ou MEAN dokenizado para desenvolvimento local em Linux, MacOS e Windows.
 
 Ele facilita muito a criação de containers comparando com o uso direto do docker. Assim podemos ter em nosso ambiente de desenvolvimento ambientes isolados com versões diferentes. Geralmente tenho dificuldade de ter duas versões do PHP para testar algo com PHP 7.4 e PHP, por exemplo. Com o devilbox isso fica seguro. Segue o roteiro que usar para criar um coonteiner usando PHP 7.4, apache 2.4 e mariadb 10 (meu desktop tem php 8.1).
+
+Ele permite que você tenha um número ilimitado de projetos prontos sem a necessidade de instalar nenhum software externo e sem a necessidade de configurar nenhum host virtual. Além de fornecer uma pilha de desenvolvimento muito flexível que você pode executar offline. (A Internet só é necessária para puxar inicialmente o contêiner docker).
+
+A única coisa que você terá que fazer é criar um novo diretório no sistema de arquivos e seu host virtual estará pronto para ser servido com seu domínio personalizado.
+
 Caso tenha os serviços rodando em seu desktop pare todos eles anes de executar.
 
 ## Recomendação
