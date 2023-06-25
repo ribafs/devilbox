@@ -64,6 +64,8 @@ Veja que temoos o phpmyadmin para gerenciar o mysql. phppgadmin e phpredmin
 
 phpmemcachedadmin
 
+![](devilbox.png)
+
 ## Shell
 
 O devilbox também pode ser administrado pelo terminal
