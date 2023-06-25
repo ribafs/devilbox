@@ -181,3 +181,11 @@ https://devilbox.readthedocs.io/en/latest/index.html
 docker-compose up -d httpd php mysql
 
 E continuar usando o projetocriado ou criar um novo. Caso crie um novo projeto não precisa adicionar nova entrada no /etc/hosts.
+
+## Instalar pacotes no shell
+
+sudo apt update
+
+Instalar o editor nano
+
+sudo apt install nano
