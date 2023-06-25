@@ -27,7 +27,7 @@ Caso queira montar o cache
 
 MOUNT_OPTIONS=,cached
 
-## Custoomizar
+## Customizar
 
 nano .env
 
@@ -40,7 +40,7 @@ apache2.4
 
 E comentei o que estava ativo
 
-## Executar
+## Criar o container e instalar os pacotes selecionados no .env
 
 docker-compose up
 
@@ -118,7 +118,6 @@ Dentro desta pasta peciso criar a pasta htdocs
 
 Depois preciso selecionar todo o coontreúdo de acl8, exceto htdocs e colei tudo dentro de acl8/htdocs
 
-
 Executo composer install
 
 Estando em acl8/htdocs,, executo:
@@ -177,3 +176,8 @@ acl8/htdocs
 Excelente documentação
 https://devilbox.readthedocs.io/en/latest/index.html
 
+## No outro dia executar
+
+docker-compose up -d httpd php mysql
+
+E continuar usando o projetocriado ou criar um novo. Caso crie um novo projeto não precisa adicionar nova entrada no /etc/hosts.
