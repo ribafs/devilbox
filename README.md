@@ -191,3 +191,9 @@ sudo apt update
 Instalar o editor nano
 
 sudo apt install nano
+
+## Erro
+
+Caso tenha o apache instalado em seu desktop, precisa parar ele antes de executar o devilbox.
+Após usar o devilbox, para vottar a usar o apache, precisa parar o devilbox
+docker-compose stop
