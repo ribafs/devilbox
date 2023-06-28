@@ -9,6 +9,10 @@ A única coisa que você terá que fazer é criar um novo diretório no sistema 
 
 Caso tenha os serviços rodando em seu desktop pare todos eles anes de executar.
 
+## Requisitos
+
+Requer docker e docker-compose instalados
+
 ## Recomendação
 
 Parar os serviços locais, antes de instalar
